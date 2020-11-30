@@ -1,5 +1,6 @@
 ### Overview
 This script do following:
+```
 - Creating VPC with Public and Private subnets across 2 A-Z's
 ----|A public  10.7.0.0/20  us-east-1a
 ----|B public  10.7.32.0/20 us-east-1d
@@ -14,6 +15,7 @@ This script do following:
 ----|Custom UDP	UDP	500	    0.0.0.0/0	
 ----|Custom UDP	UDP	40000 - 44999	0.0.0.0/0
 ----|HTTPS	TCP	443	        0.0.0.0/0
+```
 - AWS EC2 Instance
 - Deploying SoftEther server to created instance.
 
